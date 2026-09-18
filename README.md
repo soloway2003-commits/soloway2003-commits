@@ -1,33 +1,5 @@
-## 🛠️ Мои проекты и работы
-
-<table width="100%">
-  <!-- Первый ряд проектов -->
-  <tr>
-    <td align="center" width="50%" valign="top">
-      <img src="(https://github.com/user-attachments/assets/7af6c0ee-0b89-466c-b8fa-4a19077b875)" width="100%" style="max-width:400px; border-radius: 8px;" alt="Проект 1"/>
-      <br/>
-      <h3>👟 Дизайн карточки Asics</h3>
-    </td>
-    <td align="center" width="50%" valign="top">
-      <img src="ВСТАВЬТЕ_СЮДА_ПОЛНУЮ_ССЫЛКУ_2" width="100%" style="max-width:400px; border-radius: 8px;" alt="Проект 2"/>
-      <br/>
-      <h3>⚡ Дизайн карточки фена</h3>
-    </td>
-  </tr>
-  
-  <!-- Второй ряд проектов -->
-  <tr>
-    <td align="center" width="50%" valign="top">
-      <img src="ВСТАВЬТЕ_СЮДА_ПОЛНУЮ_ССЫЛКУ_3" width="100%" style="max-width:400px; border-radius: 8px;" alt="Проект 3"/>
-      <br/>
-      <h3>🖱️ Дизайн карточки Razer</h3>
-    </td>
-    <td align="center" width="50%" valign="top">
-      <img src="ВСТАВЬТЕ_СЮДА_ПОЛНУЮ_ССЫЛКУ_4" width="100%" style="max-width:400px; border-radius: 8px;" alt="Проект 4"/>
-      <br/>
-      <h3>🎨 Дизайн карточки</h3>
-    </td>
-  </tr>
-</table>
-<img width="1024" height="1536" alt="24e59ff5-f5d7-4c71-8317-e2388906d9a9" src="https://github.com/user-attachments/assets/7af6c0ee-0b89-466c-b8fa-4a19077b8757" />
+<img width="853" height="1280" alt="photo_2026-09-18_16-40-57" src="https://github.com/user-attachments/assets/4e76289e-6421-4caa-acbc-0a4453e657a6" />
+<img width="1086" height="1448" alt="ed3ac22f-cfe1-4f32-a672-5ab63ec8c649" src="https://github.com/user-attachments/assets/c3f17179-fad6-4da7-aaca-9b896b24516a" />
+<img width="1086" height="1448" alt="cd9bb3ea-b9c4-4771-ada7-87eee8704857" src="https://github.com/user-attachments/assets/5b1e5a6f-3080-47da-a129-1033f3857511" />
+<img width="1024" height="1536" alt="24e59ff5-f5d7-4c71-8317-e2388906d9a9" src="https://github.com/user-attachments/assets/643c2563-8cb6-46ba-ab4b-b92dbe339cf8" />
 

@@ -1,3 +1,4 @@
+<img width="1024" height="1536" alt="24e59ff5-f5d7-4c71-8317-e2388906d9a9" src="https://github.com/user-attachments/assets/da934957-5818-47bd-af87-e6e76a2163bf" />
 ## 🛠️ Мои проекты и работы
 
 <table width="100%">

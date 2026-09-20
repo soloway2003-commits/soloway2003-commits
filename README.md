@@ -1,3 +1,4 @@
+![Uploading ChatGPT Image 19 сент. 2026 г., 19_58_21.png…]()
 <img width="853" height="1280" alt="photo_2026-09-18_16-40-57" src="https://github.com/user-attachments/assets/4e76289e-6421-4caa-acbc-0a4453e657a6" />
 <img width="1086" height="1448" alt="ed3ac22f-cfe1-4f32-a672-5ab63ec8c649" src="https://github.com/user-attachments/assets/c3f17179-fad6-4da7-aaca-9b896b24516a" />
 <img width="1086" height="1448" alt="cd9bb3ea-b9c4-4771-ada7-87eee8704857" src="https://github.com/user-attachments/assets/5b1e5a6f-3080-47da-a129-1033f3857511" />

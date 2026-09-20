@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Solo Way — Дизайнер</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f3;
+    color: #111;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.container {
+    width: min(1180px, 92%);
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header {
+    padding: 28px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: rgba(245,245,243,.88);
+    backdrop-filter: blur(15px);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 21px;
+    font-weight: 800;
+    letter-spacing: -1px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    font-size: 14px;
+}
+
+.nav-links a {
+    opacity: .65;
+    transition: .2s;
+}
+
+.nav-links a:hover {
+    opacity: 1;
+}
+
+/* HERO */
+
+.hero {
+    min-height: 720px;
+    display: flex;
+    align-items: center;
+}
+
+.hero-content {
+    max-width: 850px;
+}
+
+.small-title {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #777;
+    margin-bottom: 25px;
+}
+
+h1 {
+    font-size: clamp(55px, 8vw, 105px);
+    line-height: .9;
+    letter-spacing: -6px;
+    margin-bottom: 35px;
+}
+
+.hero-text {
+    max-width: 560px;
+    font-size: 21px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.button {
+    display: inline-block;
+    margin-top: 35px;
+    padding: 16px 25px;
+    background: #111;
+    color: white;
+    border-radius: 100px;
+    font-size: 14px;
+    transition: .25s;
+}
+
+.button:hover {
+    transform: translateY(-3px);
+}
+
+/* WORKS */
+
+section {
+    padding: 100px 0;
+}
+
+.section-title {
+    font-size: 48px;
+    letter-spacing: -2px;
+    margin-bottom: 45px;
+}
+
+.works {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 22px;
+}
+
+.work {
+    background: #e9e9e6;
+    border-radius: 22px;
+    overflow: hidden;
+    min-height: 420px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    transition: .3s;
+}
+
+.work:hover {
+    transform: translateY(-6px);
+}
+
+.work-image {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg,#dededb,#f8f8f5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #999;
+    font-size: 15px;
+}
+
+.work-info {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding: 28px;
+    background: linear-gradient(transparent,rgba(0,0,0,.65));
+    color: white;
+    padding-top: 100px;
+}
+
+.work-info h3 {
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+
+.work-info p {
+    opacity: .8;
+}
+
+/* SERVICES */
+
+.services {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 15px;
+}
+
+.service {
+    background: white;
+    border-radius: 18px;
+    padding: 30px;
+    min-height: 180px;
+}
+
+.service-number {
+    color: #999;
+    font-size: 13px;
+    margin-bottom: 45px;
+}
+
+.service h3 {
+    font-size: 20px;
+}
+
+/* CONTACT */
+
+.contact {
+    background: #111;
+    color: white;
+    border-radius: 30px;
+    padding: 70px;
+}
+
+.contact h2 {
+    font-size: clamp(45px,7vw,85px);
+    letter-spacing: -5px;
+    line-height: .95;
+    margin-bottom: 30px;
+}
+
+.contact p {
+    color: #aaa;
+    font-size: 18px;
+    max-width: 500px;
+}
+
+.contact .button {
+    background: white;
+    color: black;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 50px 0;
+    color: #888;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* MOBILE */
+
+@media(max-width: 700px) {
+
+    .nav-links {
+        display: none;
+    }
+
+    .hero {
+        min-height: 600px;
+    }
+
+    h1 {
+        letter-spacing: -3px;
+    }
+
+    .hero-text {
+        font-size: 18px;
+    }
+
+    .works {
+        grid-template-columns: 1fr;
+    }
+
+    .services {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contact {
+        padding: 40px 25px;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container nav">
+
+<div class="logo">
+SOLO WAY
+</div>
+
+<nav class="nav-links">
+<a href="#works">Работы</a>
+<a href="#services">Услуги</a>
+<a href="#contact">Контакты</a>
+</nav>
+
+</div>
+</header>
+
+
+<main>
+
+<section class="hero">
+<div class="container hero-content">
+
+<div class="small-title">
+Graphic & Marketplace Designer
+</div>
+
+<h1>
+Создаю дизайн,<br>
+который продаёт.
+</h1>
+
+<p class="hero-text">
+Карточки товаров, обложки, баннеры, логотипы
+и визуалы для брендов и маркетплейсов.
+</p>
+
+<a href="#works" class="button">
+Смотреть работы →
+</a>
+
+</div>
+</section>
+
+
+<section id="works">
+
+<div class="container">
+
+<h2 class="section-title">
+Избранные работы
+</h2>
+
+<div class="works">
+
+<div class="work">
+<div class="work-image">
+ТВОЯ РАБОТА №1
+</div>
+
+<div class="work-info">
+<h3>Ozon / Wildberries</h3>
+<p>Карточка товара</p>
+</div>
+</div>
+
+
+<div class="work">
+<div class="work-image">
+ТВОЯ РАБОТА №2
+</div>
+
+<div class="work-info">
+<h3>Product Design</h3>
+<p>Визуал товара</p>
+</div>
+</div>
+
+
+<div class="work">
+<div class="work-image">
+ТВОЯ РАБОТА №3
+</div>
+
+<div class="work-info">
+<h3>Branding</h3>
+<p>Логотип и фирменный стиль</p>
+</div>
+</div>
+
+
+<div class="work">
+<div class="work-image">
+ТВОЯ РАБОТА №4
+</div>
+
+<div class="work-info">
+<h3>Advertising</h3>
+<p>Баннер и рекламный макет</p>
+</div>
+</div>
+
+</div>
+</div>
+
+</section>
+
+
+<section id="services">
+
+<div class="container">
+
+<h2 class="section-title">
+Что я делаю
+</h2>
+
+<div class="services">
+
+<div class="service">
+<div class="service-number">01</div>
+<h3>Карточки товаров</h3>
+</div>
+
+<div class="service">
+<div class="service-number">02</div>
+<h3>Обложки</h3>
+</div>
+
+<div class="service">
+<div class="service-number">03</div>
+<h3>Логотипы</h3>
+</div>
+
+<div class="service">
+<div class="service-number">04</div>
+<h3>Баннеры</h3>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section id="contact">
+
+<div class="container">
+
+<div class="contact">
+
+<h2>
+Давайте<br>
+создадим что-то<br>
+классное.
+</h2>
+
+<p>
+Если вам нужен современный визуал для товара,
+бренда или бизнеса — напишите мне.
+</p>
+
+<a href="https://t.me/" class="button">
+Написать мне →
+</a>
+
+</div>
+
+</div>
+
+</section>
+
+</main>
+
+
+<footer>
+
+<div class="container" style="display:flex;justify-content:space-between;width:100%;">
+<span>© 2026 Solo Way</span>
+<span>Graphic Designer</span>
+</div>
+
+</footer>
+
+</body>
+</html>
